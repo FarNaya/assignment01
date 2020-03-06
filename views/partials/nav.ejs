@@ -1,8 +1,11 @@
 <nav>
     <ul>
-        <li <% if ( title === 'index') { %>class="present"<% } %> ><a href="/">Home</a></li>
+        <%= title %>
+
+        <li <% if ( title === 'index') { %>class="present"<% } %> ><a href="/">index</a></li>
         <li <% if (title === 'oliphaunt') { %>class="present"<% } %> ><a href="oliphaunt">Oliphaunt</a></li>
         <li <% if (title === 'theBathSong') { %>class="present"<% } %> ><a href="theBathSong">The Bath Song</a></li>
         <li <% if (title === 'theStoneTroll') { %>class="present"<% } %> ><a href="theStoneTroll">The Stone Troll</a></li>
     </ul>
+
 </nav>

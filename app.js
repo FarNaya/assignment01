@@ -6,7 +6,6 @@ const  ejs = require('ejs');
 const pageInfo = require('./pageInfo');
 const moment = require('moment');
 
-
 const app = express();
 app.locals.moment = require('moment');
 

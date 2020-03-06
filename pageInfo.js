@@ -1,7 +1,7 @@
 
 const pageInfo = {
     index: {
-      title: 'Home Page',
+      title: 'Index',
       description: 'Poems by JRR Tolkien'
     },
     
